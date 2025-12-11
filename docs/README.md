@@ -1,3 +1,3 @@
-# Welcome to PvzLauncher Docs
+# Welcom to PvzLauncher Docs
 
-Base on Vuepress
+Base on VuePress
