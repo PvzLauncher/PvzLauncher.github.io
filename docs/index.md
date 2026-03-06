@@ -11,11 +11,11 @@ hero:
     alt: pvzlauncher
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 什么是PvzLauncher?
+      link: /about
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 快速开始
+      link: /get-starting
 
 features:
   - icon: 

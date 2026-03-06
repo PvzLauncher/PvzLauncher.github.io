@@ -13,10 +13,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'PvzLauncher',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '什么是PvzLauncher?', link: '/about' },
+          { text: '快速开始', link: '/get-starting' }
         ]
       }
     ],
