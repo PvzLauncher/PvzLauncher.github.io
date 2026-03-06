@@ -3,9 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "PvzLauncher 文档",
-  lang: 'zh-CN',
   description: "Plants Vs. Zombies, 快速下载、管理、启动游戏！",
-  base: '/pvzlauncher/',
+  base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
