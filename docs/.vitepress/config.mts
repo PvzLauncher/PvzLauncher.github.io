@@ -5,6 +5,10 @@ export default defineConfig({
   title: "PvzLauncher 文档",
   description: "Plants Vs. Zombies, 快速下载、管理、启动游戏！",
   base: '/',
+
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
