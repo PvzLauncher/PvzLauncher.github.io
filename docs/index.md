@@ -7,7 +7,7 @@ hero:
   text: "一款好用的植物大战僵尸启动器"
   tagline: 下载、管理和启动游戏！
   image:
-    src: ./.assets/icon.svg
+    src: /icon.svg
     alt: pvzlauncher
   actions:
     - theme: brand
@@ -19,15 +19,15 @@ hero:
 
 features:
   - icon: 
-      src: ./.assets/download.svg
+      src: /download.svg
     title: 下载游戏
     details: 我们提供了游戏高速下载服务，启动器提供的所有游戏都可免费高速下载！
   - icon:
-      src: ./.assets/manage.svg
+      src: /manage.svg
     title: 管理游戏
     details: 仅在启动器内即可方便的管理您所有的游戏以及启动器
   - icon:
-      src: ./.assets/launch.svg
+      src: /launch.svg
     title: 启动游戏
     details: 方便的启动游戏及其配套启动器
 ---
