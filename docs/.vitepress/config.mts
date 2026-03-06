@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "PvzLauncher 文档",
   description: "Plants Vs. Zombies, 快速下载、管理、启动游戏！",
+  base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
