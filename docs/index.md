@@ -29,5 +29,5 @@ features:
   - icon:
       src: /launch.svg
     title: 启动游戏
-    details: 方便的启动游戏及其配套启动器
+    details: 方便的启动游戏及其配套修改器
 ---
