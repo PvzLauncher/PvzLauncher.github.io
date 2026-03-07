@@ -15,7 +15,7 @@ hero:
       link: /about
     - theme: alt
       text: 快速开始
-      link: /get-starting
+      link: /quick-start
 
 features:
   - icon: 
