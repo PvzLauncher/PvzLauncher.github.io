@@ -11,10 +11,10 @@ hero:
     alt: pvzlauncher
   actions:
     - theme: brand
-      text: 什么是PvzLauncher?
+      text: 下载
       link: /about
     - theme: alt
-      text: 快速开始
+      text: 查看教程
       link: /quick-start
 
 features:

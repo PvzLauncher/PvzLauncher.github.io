@@ -28,18 +28,38 @@ export default defineConfig({
         text: '教程',
         collapsed: false,
         items: [
-          { text: '启动游戏', link: '/tutorial/launch.md' },
-          { text: '管理游戏', link: '/tutorial/manage.md' },
-          { text: '下载游戏', link: '/tutorial/download.md' },
-          { text: '任务管理', link: '/tutorial/task.md' },
-          { text: '设置', link: '/tutorial/settings.md' },
-          { text: '关于页', link: '/tutorial/about.md' },
+          {
+            text:'Windows 版本',
+            collapsed : false,
+            items:[
+              { text: '启动', link: '/tutorial/Windows/launch.md' },
+          { text: '管理', link: '/tutorial/Windows/manage.md' },
+          { text: '导入', link: '/tutorial/Windows/import.md' },
+          { text: '下载', link: '/tutorial/Windows/download.md' },
+          { text: '任务', link: '/tutorial/Windows/task.md' },
+          { text: '设置', link: '/tutorial/Windows/settings.md' },
+          { text: '关于', link: '/tutorial/Windows/about.md' },
+            ]
+          },
+          {
+            text:'Windows 版本',
+            collapsed : false,
+            items:[
+              { text: '启动', link: '/tutorial/Android/launch.md' },
+          { text: '管理', link: '/tutorial/Android/manage.md' },
+          { text: '导入', link: '/tutorial/Android/import.md' },
+          { text: '下载', link: '/tutorial/Android/download.md' },
+          { text: '任务', link: '/tutorial/Android/task.md' },
+          { text: '设置', link: '/tutorial/Android/settings.md' },
+          { text: '关于', link: '/tutorial/Android/about.md' },
+            ]
+          }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/PvzLauncher/PvzLauncher' }
+      { icon: 'github', link: 'https://github.com/PvzLauncher/' },
     ]
   }
 })
