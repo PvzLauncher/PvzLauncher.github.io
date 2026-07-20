@@ -6,13 +6,13 @@
 
 PvzLauncher 目前仅提供 Windows x64 平台的官方支持。以下为各操作系统兼容性概览：
 
-| 操作系统| 支持状态|环境要求|备注|
-|--------|--------|------|----|
-| Windows 10（1809 及以上版本） / Windows 11 (x64) | ✅ 完全支持  | . NET 10 Desktop Runtime| 推荐使用环境|
-| Windows 7 / 8.1 / Windows 10（1809 以前版本）(x64) | ⚠️ 部分支持  | . NET 10 Desktop Runtime| 可能出现兼容性问题或部分功能受限 |
-| Windows 32 位 / ARM 架构 | ❌ 不支持 | — | 仅提供 x64 版本|
-| Linux | ❔ 理论支持 | 通过 Wine / Proton 等兼容层 | 未经过官方测试，稳定性无法保证 |
-| macOS / Android / iOS / Web | ❌ 不支持 | — | 无计划支持此类平台 |
+|操作系统|支持情况|环境要求|
+|-|-|-|
+|Windows 10(1809+) / 11 64-bit   |✅完全支持    |[. NET 10 Desktop Runtime](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)|
+|Windows 7 / 8.1 / 10(1809-)     |❌不支持      |. NET10 已放弃对这些平台的支持                                                        |
+|Linux                           |❔理论支持     |可以使用Wine此类兼容层运行                                                            |
+|Android                         |❌不支持      |请跳转到安卓版专用仓库：[点我跳转](https://github.com/PvzLauncher/PvzLauncher.Android) |
+|macOS / IOS / Web               |❌不支持      |永远也不会支持这些平台                                                                |
 
 **重要提示**：若您的系统未列入完全支持范围，则 PvzLauncher 可能无法启动，或将出现功能缺失、崩溃等现象。
 
@@ -23,7 +23,7 @@ PvzLauncher 基于 . NET 10 框架开发，必须安装 **. NET Desktop Runtime 
 ### 推荐安装方式
 
 1. **通过官方网站获取**（适用于所有用户）  
-   访问 [. NET 10 下载页面](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0)  
+   访问 [. NET 10 下载页面](https://get.dot.net/10)  
    → 找到「. NET Desktop Runtime 10.0.x」  
    → 下载适用于 x64 架构的安装程序
 
