@@ -11,6 +11,9 @@ hero:
     alt: pvzlauncher
   actions:
     - theme: brand
+      text: 立即下载
+      link: https://github.com/PvzLauncher/PvzLauncher/releases/latest
+    - theme: alt
       text: 关于PvzLauncher
       link: /about
     - theme: alt
