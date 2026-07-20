@@ -33,4 +33,8 @@ features:
       src: /launch.svg
     title: 启动游戏
     details: 方便的启动游戏及其配套修改器
+  - icon:
+      src: /overlay.svg
+    title: 游戏内覆盖界面
+    details: 类似Steam的覆盖界面。可在游戏内完成多项操作，如卡槽快捷键，快速结束游戏等功能
 ---
