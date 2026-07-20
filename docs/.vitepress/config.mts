@@ -42,7 +42,7 @@ export default defineConfig({
             ]
           },
           {
-            text:'Windows 版本',
+            text:'Android 版本',
             collapsed : false,
             items:[
               { text: '启动', link: '/tutorial/Android/launch.md' },
