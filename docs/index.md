@@ -11,7 +11,7 @@ hero:
     alt: pvzlauncher
   actions:
     - theme: brand
-      text: 什么是PvzLauncher?
+      text: 关于PvzLauncher
       link: /about
     - theme: alt
       text: 快速开始
