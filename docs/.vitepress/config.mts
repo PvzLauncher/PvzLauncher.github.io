@@ -3,9 +3,10 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     lang: "zh-CN",
-    title: "PvzLauncher",
-    description: "PvzLauncher Official Website",
+    title: "PvzLauncher 官方网站",
+    description: "PvzLauncher - 简单易用的植物大战僵尸启动器",
     themeConfig: {
+        siteTitle: "PvzLauncher",
         logo: "/icons/icon.svg",
 
         // https://vitepress.dev/reference/default-theme-config
