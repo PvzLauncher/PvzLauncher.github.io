@@ -2,27 +2,28 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "PvzLauncher",
-  description: "PvzLauncher Official Website",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    lang: "zh-CN",
+    title: "PvzLauncher",
+    description: "PvzLauncher Official Website",
+    themeConfig: {
+        logo: "/icons/icon.svg",
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+        // https://vitepress.dev/reference/default-theme-config
+        nav: [
+            { text: '主页', link: '/' },
+        ],
+
+        sidebar: [
+            {
+                text: 'PvzLauncher',
+                items: [
+                    { text: '下载', link: '/downloads' },
+                ]
+            }
+        ],
+
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/PvzLauncher/PvzLauncher' }
         ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+    }
 })

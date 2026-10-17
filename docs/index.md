@@ -4,14 +4,14 @@ layout: home
 
 hero:
   name: "PvzLauncher"
-  text: "PvzLauncher Official Website"
-  tagline: My great project tagline
+  text: "一款简单易用的植物大战僵尸启动器"
+  tagline: PvzLauncher Official Website
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 立即下载
+      link: /downloads
     - theme: alt
-      text: API Examples
+      text: 文档
       link: /api-examples
 
 features:
