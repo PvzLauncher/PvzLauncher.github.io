@@ -11,6 +11,7 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: '主页', link: '/' },
+            { text: '下载', link: '/downloads' }
         ],
 
         sidebar: [
