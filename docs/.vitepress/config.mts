@@ -25,6 +25,10 @@ export default defineConfig({
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/PvzLauncher/PvzLauncher' }
-        ]
+        ],
+
+        outline: {
+            label: "页面导航"
+        }
     }
 })

@@ -49,7 +49,7 @@ PvzLauncher 仅通过官方网站和 GitHub Releases 发布。为降低下载到
 **Development（开发版）**
 
 * [官方网站下载](/files/pvzlauncher.dev.latest.zip)
-* [GitHub Releases（开发版发布记录）](https://github.com/PvzLauncher/PvzLauncher/releases)
+* [GitHub Releases（最新开发版）](https://github.com/PvzLauncher/PvzLauncher/releases)
 
 > [!WARNING]
 > 请勿轻信第三方网站提供的下载链接。非官方渠道分发的软件可能未经验证，存在被篡改、捆绑恶意程序或版本过期等风险。
